@@ -1,0 +1,12 @@
+{
+  "projectName": "nuqs-repro",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": false,
+  "packageManager": "bun",
+  "addOnOptions": {},
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": []
+}
