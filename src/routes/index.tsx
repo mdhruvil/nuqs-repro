@@ -9,6 +9,7 @@ const searchParams = {
 
 export const Route = createFileRoute("/")({
   component: App,
+  // THE BUG ONLY HAPPENS WHEN USING validateSearch IF I REMOVE `validateSearch` IT WORKS AS EXPECTED
   validateSearch: createStandardSchemaV1(searchParams, {
     partialOutput: true,
   }),
